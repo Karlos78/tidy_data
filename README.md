@@ -1,5 +1,5 @@
-## tidy_data
-repo containing submission for the getting and cleaning data course
+# tidy_data
+repo containing submission for the Getting and Cleaning Data course
 
 this repository contains three files:
 
@@ -7,7 +7,7 @@ this repository contains three files:
 - run_analysis.R - an R script to read in text files and output tidy data, as per the Getting & Cleaning Data assignment
 - CodeBook.md - a file which describes the data output by run_analysis.R
 
-# run_analysis.R
+## run_analysis.R
 
 this script uses the dplyr library and requires the following files to exist within the working R directory:
 
