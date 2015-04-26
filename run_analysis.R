@@ -52,7 +52,7 @@ train <- cbind(train_sub, train_act, train)
 # Combine the test and training data
 combined <- rbind(test,train)
 
-#Group the combined data by subjuect and activity, then calculate the mean of the remaining columns
+#Group the combined data by subject and activity, then calculate the mean of the remaining columns
 tidy <- combined %>% group_by(subject_id, activity_id, activity_name) %>% summarise_each(funs(mean))
 
 # Output the 'tidy' data as a text file
