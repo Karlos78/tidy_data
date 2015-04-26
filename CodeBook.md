@@ -2,6 +2,10 @@
 
 This file details the data found in the tidy.txt file, output by the run_analysis.R script
 
+The data consists of 40 observations of 69 variables
+
+The variables are as follows:
+
 "subject_id"  - a unique identifier of the individual in the study (integer)
 
 "activity_id" - a unique identifier of the activity studied (integer)
